@@ -1,0 +1,11 @@
+cart_add:productlist中,将商品加入购物车
+cart_delete:shoppingcart中,删除商品时
+cart_detail:shoppingcart中,页面加载时,异步获取购物车中的商品数据
+cart_downdata:shoppingcart中,减少商品数量时
+cart_updata:shoppingcart中,增加商品数量时
+footer:produclist和shoppingcart页面加载时,页头加载部分
+header:produclist和shoppingcart页面加载时,页尾加载部分
+login:produclist中,用于登陆验证
+product_select_lastpage:produclist中,点击'页尾'按钮时加载最后一页
+product_select:produclist加载时自动加载商品数据列表
+user_add:用户名注册

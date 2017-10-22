@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>用户注册 </title>
+  <link rel="icon" href="images/logo/logo-icon.jpg"/>
+  <link rel="stylesheet" href="css/common.css"/>
+  <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+  <!--页头-->
+  <div class="header">
+    <div class="container">
+      <img class="logo" src="images/logo/logo-icon.jpg">
+      <b class="welcome">欢迎注册</b>
+    </div>
+  </div>
+  <!--主体-->
+  <div class="main">
+    <video src="res/snow.mp4" autoplay loop muted></video>
+    <div class="container">
+
+    </div>
+  </div>
+  <!--页尾-->
+  <div class="footer">
+    <div class="container">
+      <div class="form-container">
+
+        <form id="form-register" name="form-register"  onsubmit="return postData()">
+          <div class="form-group">
+            <label for="uname">用户名：</label>
+            <input required minlength="6" maxlength="9" type="text" placeholder="请输入用户名" autofocus name="uname" id="uname"/>
+            <span class="msg-default">用户名长度在6到9位之间</span>
+          </div>
+          <div class="form-group">
+            <label for="upwd">密码：</label>
+            <input type="password" required minlength="8" placeholder="请输入密码" name="upwd" id="upwd"/>
+            <span class="msg-default hidden">密码长度至少8位</span>
+          </div>
+          <div class="form-group">
+            <label for="upwd">密码：</label>
+            <input type="password" placeholder="请再次输入密码" name="upwd2" id="upwd2"/>
+            <span class="msg-default hidden">两次输入密码需一致</span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">邮箱：</label>
+            <input required type="email" placeholder="请输入邮箱地址" name="email" id="email"/>
+            <span class="msg-default hidden">请输入合法的邮箱地址</span>
+          </div>
+          <div class="form-group">
+            <label for="homepage">个人主页：</label>
+            <input type="url" name="homepage" id="homepage"  placeholder="可不填写"/>
+            <span id="homepage-msg">个人主页必须符合URL格式</span>
+          </div>
+          <div class="form-group">
+            <label for="age">年龄：</label>
+            <input type="number" min="18" max="60" name="age" id="age"/>
+            <span id="age-msg">年龄必须在18~60之间</span>
+          </div>
+       <!--<div class="form-group">
+            <label for="birthday">生日：</label>
+            <input type="date" name="birthday" id="birthday"/>
+            <span id="birthday-msg">请选择生日</span>
+          </div>
+       -->
+          <div class="form-group">
+            <!--同步提交-->
+            <!--<input type="submit"/>-->
+            <!--同步提交，button的type默认为submit-->
+            <!--<button>ABCD</button>-->
+            <input id="bt-register" type="submit" value="提交注册信息"/>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/register.js"></script>
+
+</body>
+</html>

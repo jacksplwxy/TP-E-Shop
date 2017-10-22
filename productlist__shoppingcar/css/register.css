@@ -1,0 +1,52 @@
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+.header .container {
+  padding: 1.4em 0;
+}
+.logo {
+  vertical-align: middle;
+}
+.welcome {
+  line-height: 60px;
+  font-size: 2em;
+  border-left: 2px solid #aaa;
+  padding-left: 1em;
+  margin-left: 1em;
+  letter-spacing: .8em;
+}
+
+.main video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, .8);
+  padding: 3em;
+  margin: 20px auto;
+}
+#form-register .form-group {
+  line-height: 3em;
+}
+#form-register label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+#form-register input {
+  width: 200px;
+}
+
+
+.msg-default {
+  color: #999;
+}
+.msg-error {
+  color: #d00;
+}
+.msg-success {
+  color: #0d0;
+}

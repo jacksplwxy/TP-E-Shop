@@ -1,0 +1,3 @@
+﻿common.css和index.css用来给定ajax异步加载的页头和页尾样式
+productlist.html和shoppingcart.html中的代码给定样式
+detail.css和product_right.css给detail.html页面加样式

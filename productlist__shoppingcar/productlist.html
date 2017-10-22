@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 一体机交易网－产品列表 </title>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="images/logo/logo-icon.jpg"/>
+        <link rel="stylesheet" href="css/product.css"/>
+        <link href="css/common.css" rel="Stylesheet" />
+        <link href="css/index.css" rel="Stylesheet" />
+    </head>
+
+    <body>
+        <div id="header"></div> <!--页头页面,异步请求php完成-->
+
+        <div id="main">
+            <div class="affix">
+                <h4>商家精选</h4>
+            </div>
+            <div class="container productlist">
+                <!-- 排序部分 -->
+                <header>
+                    <ul>
+                        <li><a href="" class="curr">人气</a></li>
+                        <li><a href="">销量</a></li>
+                        <li><a href="">信用</a></li>
+                        <li><a href="">价格</a></li>
+                    </ul>
+                    <ol>
+                        <li><a href="">&lt;</a></li>
+                        <li><a href="">&gt;</a></li>
+                    </ol>
+                </header>
+
+                <!-- 产品列表 -->
+                <section id="plist">
+                    <ul>
+						
+                    </ul>
+
+                    <ol class="pager"> 
+						
+                    </ol>
+                </section>
+
+            </div>
+        </div>
+
+        <div id="footer"></div> <!--页尾页面,异步请求php完成-->
+        
+        <!--模态登录对话框-->
+        <div class="modal" style="display:none">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h4>用户登录</h4>
+                    <p class="alert">
+                        请在此处输入您的注册信息。
+                    </p>
+                    <form id="login-form">
+                        <input type="text" placeholder="请输入登录用户名" name="uname" >
+                        <input type="password" placeholder="请输入登录密码" name="upwd" >
+                        <input type="button" value="提交登录信息" id="btLogin">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/productlist.js"></script>
+		
+    </body>
+</html>
