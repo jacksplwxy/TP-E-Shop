@@ -11,8 +11,8 @@ CREATE TABLE im_user(
   age INT
 );
 INSERT INTO im_user VALUES
-(1, '王兴宇', '123456','895685537@qq.com','',26),
-(2, '王湘雅', '456789','895685537@qq.com','',25);
+(1, '张三', '123456','12345678@qq.com','',26),
+(2, '李四', '456789','23456789@qq.com','',25);
 
 
 create table im_product(
